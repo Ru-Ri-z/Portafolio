@@ -1,7 +1,6 @@
 //gsap.to('', {duration: 5, ease: 'expo.out', y: 15});
 gsap.from('.header--button', {duration: 5, backgroundPosition: '200 0px', opacity: 0});
 gsap.from('.social-media', {duration: 15, backgroundPosition: '200 0px', opacity: 0});
-
 //gsap.from(".header--title-container", {duration:2, y:-50, opacity: 0});
 //gsap.from(".header--title-container", {duration:2, y:-50, opacity: 0, ease: "elastic(1, 0.3)"}); 
 //gsap.from("img", {duration: 1, y: 30, opacity: 0});

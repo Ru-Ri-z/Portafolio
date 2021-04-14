@@ -1,11 +1,14 @@
 gsap.from(".entrada", {duration: 5, x: 300, opacity: 0, scale: 0.5})
+gsap.from(".product--card-title", {duration: 6, y: 300, opacity: 0, scale: 0.5})
+gsap.from(".product--card-body", {duration: 6, x: 300, opacity: 0, scale: 0.5})
+
 
 var img = new Image();
 
 // Variables de usuario - personalizar estas para cambiar la imagen cuando inicie el desplazamiento
 // dirección y velocidad.
 
-img.src = './assets/mix iconos dev.png';
+img.src = './assets/mix new.png';
 var CanvasXSize = 800;
 var CanvasYSize = 200;
 var speed = 20; //más bajo es más rápido
