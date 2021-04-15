@@ -1,5 +1,6 @@
 gsap.from(".entrada", {duration: 5, x: 300, opacity: 0, scale: 0.5})
-gsap.from(".product--card-title", {duration: 6, y: 300, opacity: 0, scale: 0.5})
+gsap.from(".description-detail--title", {duration: 6, y: 300, opacity: 0, scale: 0.5})
+gsap.from(".description-deail--card", {duration: 6, y: 300, opacity: 0, scale: 0.5})
 gsap.from(".product--card-body", {duration: 6, x: 300, opacity: 0, scale: 0.5})
 
 
